@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap');
+
+#banner{
+  margin-top: 50px;
+  position: relative;
+}
+#banner img{
+  width: 100%;
+  height: 300%;
+}
+#banner .contenedor{
+  position: absolute;
+  top: 30%;
+  transform: traslateX(-50%) translateY(-50%);
+  color: #fff;
+  text-align: center;
+}
+#banner h2{
+  font-family: "Bowlby One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+}
+#banner .contenedor p{
+  font-size: 20px;
+  font-weight: 20px;
+}
+#banner a{
+  background-color: rgb(41, 41, 231);
+  display: block;
+  width: 100px;
+  color: #fff;
+  text-decoration: none;
+  padding: 7px;
+  margin-top: 10px;
+  border: 3px solid #fff;
+}
+#banner a:hover{
+  background:rgba(255,255,255, .5);
+}
+
+@media(min-width: 420px){
+  #banner .contenedor{
+    top: 30px;
+  }
+  #banner h2{
+    font-size: 18px;
+  }
+  #banner .contenedor p{
+    font-size: 15px;
+  }
+  #banner img{
+    height: auto;
+    margin-top: 0px;
+  }
+  #banner a{
+    margin-top: 15px;
+    font-size: 15px;
+    padding: 5px;
+    margin-left: 35%;
+  }
+}
+
+@media(min-width: 768px){
+  #banner{
+    height: 300px;
+    overflow: hidden;
+  }
+
+  #banner img{
+    height: auto;
+    margin-top:-100px;
+  }
+  #banner a{
+    margin-top: 15px;
+    font-size: 15px;
+    padding: 5px;
+    margin-left: 42%;
+  }
+  #banner .contenedor{
+    top: 30px;
+  }
+  #banner h2{
+    font-size: 40px;
+  }
+  #banner .contenedor p{
+    font-size: 15px;
+  }
+}
+
+@media(min-width: 1024px){
+  #banner img{
+    margin-top: -200px;
+  }
+  #banner a{
+  margin-top: 15px;
+  font-size: 15px;
+  padding: 5px;
+  margin-left: 42%;
+  }
+  #banner .contenedor{
+  top: 30px;
+  margin-left: 12%;
+  }
+  #banner h2{
+  font-size: 40px;
+  }
+  #banner .contenedor p{
+  font-size: 20px;
+  }
+  #banner img{
+    height: 300%;
+    margin-top: 0px;
+  }
+}
